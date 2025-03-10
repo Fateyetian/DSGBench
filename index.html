@@ -53,10 +53,12 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <h1 class="title is-1 publication-title">
-              <span style="color: rgb(0, 176, 80);">D</span><span style="color: rgb(250, 196, 34);">S</span><span style="color: rgb(0, 176, 240);">G</span>Bench: A 
-              <span style="color: rgb(0, 176, 80);">D</span>iverse 
-              <span style="color: rgb(250, 196, 34);">S</span>trategic 
-              <span style="color: rgb(0, 176, 240);">G</span>ame Benchmark for Evaluating LLM-based Agents in Complex Decision-Making Environments
+              <span style="color: rgb(0, 176, 80);">D</span><span style="color: rgb(250, 196, 34);">S</span><span
+                style="color: rgb(0, 176, 240);">G</span>Bench: A
+              <span style="color: rgb(0, 176, 80);">D</span>iverse
+              <span style="color: rgb(250, 196, 34);">S</span>trategic
+              <span style="color: rgb(0, 176, 240);">G</span>ame Benchmark for Evaluating LLM-based Agents in Complex
+              Decision-Making Environments
             </h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
@@ -164,11 +166,20 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus.
-              Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a
-              vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac
-              gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed
-              vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+              Large Language Model~(LLM) based agents have been increasingly popular in solving complex and dynamic
+              tasks, which requires proper evaluation systems to assess their capabilities. Nevertheless, existing
+              benchmarks usually either focus on single-objective tasks or use overly broad assessing metrics, failing
+              to provide a comprehensive inspection of the actual capabilities of LLM-based agents in complicated
+              decision-making tasks. To address these issues, we introduce DSGBench, a more rigorous evaluation platform
+              for strategic decision-making. Firstly, it incorporates six complex strategic games which serve as ideal
+              testbeds due to their long-term and multi-dimensional decision-making demands and flexibility in
+              customizing tasks of various difficulty levels or multiple targets. Secondly, DSGBench employs a
+              fine-grained evaluation scoring system which examines the decision-making capabilities by looking into the
+              performance in five specific dimensions and offering a comprehensive assessment in a well-designed way.
+              Furthermore, DSGBench also incorporates an automated decision-tracking mechanism which enables in-depth
+              analysis of agent behaviour patterns and the changes in their strategies. We demonstrate the advances of
+              DSGBench by applying it to multiple popular LLM-based agents and our results suggest that DSGBench
+              provides valuable insights in choosing LLM-based agents as well as improving their future development.
             </p>
           </div>
         </div>
@@ -184,11 +195,20 @@
       <div class="container">
         <div id="results-carousel" class="carousel results-carousel">
           <div class="item">
-            <!-- Your image here -->
-            <img src="static/images/carousel1.jpg" alt="MY ALT TEXT" />
-            <h2 class="subtitle has-text-centered">
-              First image description.
-            </h2>
+            <div style="width: 100%; max-width: 1000px; margin: 0 auto;">
+              <img src="static/images/Overview.png" alt="Overview of DSGBench"
+                style="width: 100%; height: auto; object-fit: contain; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+              <h2 class="subtitle has-text-centered"
+                style="margin-top: 20px; font-size: 1rem; line-height: 1.5; max-width: 90%; margin-left: auto; margin-right: auto;">
+                The overall framework of DSGBench. The framework consists of (1) a multi-game environment supporting
+                both
+                asynchronous and synchronous interactions; (2) fine-grained capability metrics for strategic planning,
+                real-time decision-making, and team collaboration; and (3) decision trajectory tracking tools that
+                collaboratively analyze agents' decision-making processes. Through observation-to-prompt and
+                response-to-action loops, DSGBench enables systematic evaluation of LLM-based agents in dynamic,
+                multi-agent scenarios.
+              </h2>
+            </div>
           </div>
           <div class="item">
             <!-- Your image here -->
@@ -243,33 +263,33 @@
 
 
   <!-- Video carousel -->
-  <section class="hero is-small">
+  <!-- <section class="hero is-small">
     <div class="hero-body">
       <div class="container">
         <h2 class="title is-3">Another Carousel</h2>
         <div id="results-carousel" class="carousel results-carousel">
           <div class="item item-video1">
-            <video poster="" id="video1" autoplay controls muted loop height="100%">
+            <video poster="" id="video1" autoplay controls muted loop height="100%"> -->
               <!-- Your video file here -->
-              <source src="static/videos/carousel1.mp4" type="video/mp4">
+              <!-- <source src="static/videos/carousel1.mp4" type="video/mp4">
             </video>
           </div>
           <div class="item item-video2">
-            <video poster="" id="video2" autoplay controls muted loop height="100%">
+            <video poster="" id="video2" autoplay controls muted loop height="100%"> -->
               <!-- Your video file here -->
-              <source src="static/videos/carousel2.mp4" type="video/mp4">
+              <!-- <source src="static/videos/carousel2.mp4" type="video/mp4">
             </video>
           </div>
           <div class="item item-video3">
-            <video poster="" id="video3" autoplay controls muted loop height="100%">\
+            <video poster="" id="video3" autoplay controls muted loop height="100%">\ -->
               <!-- Your video file here -->
-              <source src="static/videos/carousel3.mp4" type="video/mp4">
+              <!-- <source src="static/videos/carousel3.mp4" type="video/mp4">
             </video>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- End video carousel -->
 
 
@@ -278,7 +298,7 @@
 
 
   <!-- Paper poster -->
-  <section class="hero is-small is-light">
+  <!-- <section class="hero is-small is-light">
     <div class="hero-body">
       <div class="container">
         <h2 class="title">Poster</h2>
@@ -288,7 +308,7 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
   <!--End paper poster -->
 
 
